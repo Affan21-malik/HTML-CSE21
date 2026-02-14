@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+.container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.left{
+    grid-column-start: 1fr;
+    border-radius: 10px;
+    background-color: black;
+}
+.left-top img{
+    width: 120px;
+    padding: 10px;
+}
+.left-body a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 20px;
+    margin: 20px;
+}
+.left-body a img{
+    border-radius:50%;
+    width: 30px;
+    height: 30px;
+}
+.more a{
+    margin-top: 50px;
+}
